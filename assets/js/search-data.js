@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/";
           },
+        },{id: "nav-bookshelf",
+          title: "Bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
@@ -414,11 +421,116 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-atomic-habits",
+          title: 'Atomic Habits',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/atomic-habits/";
+            },},{id: "books-edgedancer",
+          title: 'Edgedancer',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/edgedancer/";
+            },},{id: "books-elon-musk",
+          title: 'Elon Musk',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/elon-musk/";
+            },},{id: "books-ender-39-s-game",
+          title: 'Ender&amp;#39;s Game',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/enders-game/";
+            },},{id: "books-four-thousand-weeks",
+          title: 'Four Thousand Weeks',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/four-thousand-weeks/";
+            },},{id: "books-freakonomics",
+          title: 'Freakonomics',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/freakonomics/";
+            },},{id: "books-oathbringer",
+          title: 'Oathbringer',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/oathbringer/";
+            },},{id: "books-speaker-for-the-dead",
+          title: 'Speaker for the Dead',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/speaker-for-the-dead/";
+            },},{id: "books-steve-jobs",
+          title: 'Steve Jobs',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/steve-jobs/";
+            },},{id: "books-strangers-drowning",
+          title: 'Strangers Drowning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/strangers-drowning/";
+            },},{id: "books-superfreakonomics",
+          title: 'SuperFreakonomics',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/superfreakonomics/";
+            },},{id: "books-the-policy-paradox",
+          title: 'The Policy Paradox',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-policy-paradox/";
+            },},{id: "books-the-precipice",
+          title: 'The Precipice',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-precipice/";
+            },},{id: "books-the-upstarts",
+          title: 'The Upstarts',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-upstarts/";
+            },},{id: "books-the-way-of-kings",
+          title: 'The Way of Kings',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-way-of-kings/";
+            },},{id: "books-think-like-a-freak",
+          title: 'Think Like a Freak',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/think-like-a-freak/";
+            },},{id: "books-warbreaker",
+          title: 'Warbreaker',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/warbreaker/";
+            },},{id: "books-what-school-could-be",
+          title: 'What School Could Be',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/what-school-could-be/";
+            },},{id: "books-words-of-radiance",
+          title: 'Words of Radiance',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/words-of-radiance/";
+            },},{id: "books-xenocide",
+          title: 'Xenocide',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/xenocide-current/";
+            },},{id: "books-xenocide",
+          title: 'Xenocide',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/xenocide/";
+            },},{id: "books-zero-to-one",
+          title: 'Zero to One',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/zero-to-one/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
