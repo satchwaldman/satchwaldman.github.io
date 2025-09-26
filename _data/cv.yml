@@ -1,5 +1,6 @@
 - title: Education
   type: time_table
+  pdf: /assets/pdf/resume.pdf
   contents:
     - title: Sc.B. Electrical Engineering
       institution: Brown University, Providence, RI

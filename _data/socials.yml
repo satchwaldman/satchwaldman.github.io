@@ -1,6 +1,6 @@
-- GITHUB:
-    - href: https://github.com/satchwaldman
-- LINKEDIN:
-    - href: https://www.linkedin.com/in/satch-sumner-waldman/
-- EMAIL:
-    - href: mailto:satch@mit.edu
+- title: envelope
+  url: mailto:satch@mit.edu
+- title: github
+  url: https://github.com/satchwaldman
+- title: linkedin
+  url: https://www.linkedin.com/in/satch-sumner-waldman/
