@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Research
+title: research
 permalink: /research/
 nav: true
-nav_order: 4
+nav_order: 3
 display_categories: [research]
 horizontal: false
 ---

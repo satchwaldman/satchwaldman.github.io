@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: ""
+subtitle: "Master’s Student at [Massachusetts Institute of Technology](https://tpp.mit.edu/)"
 
 profile:
   align: right
@@ -24,4 +24,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm Satch, a Master's student in the Technology and Policy Program at MIT. I'm passionate about leveraging technology to improve lives and ensure a prosperous future, which has led me to focus on the field of AI safety. My background is in Electrical Engineering from Brown University, and I've had the opportunity to explore AI safety through courses and research at MIT AI Alignment.
+Hi! My name is Satch (pronounced like satchel) and I’m a master’s student in the Technology and Policy Program at MIT.
+
+I’m motivated by the question of how to create the greatest positive impact for the most people. I focus on work that is both high-impact and neglected, where contributions at the margin can make the largest difference. This perspective is what led me to AI safety.
+
+I’m currently on the hunt for a research assistantship! My interests within AI safety are very broad and flexible, and span topics including AI control/guardrail design, adversarial testing & red-teaming, and policy design that aligns the incentives of frontier-AI companies with the public interest.
+
+Beyond research, I serve as an AI-focused Challenge Director for the [MIT Policy Hackathon](https://www.mitpolicyhackathon.org/), where I am collaborating with the [Center for Democracy & Technology](https://cdt.org/area-of-focus/ai-policy-governance/). I’m also active in the [Effective Altruism](https://www.effectivealtruism.org/) community!
+
+Previously, I was a research engineer in the [MIT Electrical Energy Systems group](https://eesg.mit.edu/people), where I worked on software to unify electricity market optimization and transient grid dynamics within a single program. Before that, I studied Electrical Engineering at Brown University, where I directed my research interests towards brain machine interfaces.
