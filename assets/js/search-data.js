@@ -44,6 +44,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/music/";
               },
+            },{id: "dropdown-longer-story",
+              title: "longer story",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/longer-story/";
+              },
             },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -469,13 +476,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-',
-        title: '',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
         id: 'social-',
         title: '',
         section: 'Socials',
