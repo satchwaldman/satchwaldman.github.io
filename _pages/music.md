@@ -24,7 +24,7 @@ permalink: /music/
 
 I have been performing with folk-pop musician Chance Emerson for over six years! Last year we played at Lollapalooza in Chicago, IL, and two years before that we went on tour with Blues Traveler. Check out this live recording of one of our favorite songs!
 
-{% include video.liquid path="https://www.youtube.com/watch?v=some_video_id" class="img-fluid rounded z-depth-1" %}
+{% include video.liquid path="https://www.youtube.com/embed/oZmCT5b--Tw" class="img-fluid rounded z-depth-1" %}
 
 ---
 
@@ -32,7 +32,7 @@ I have been performing with folk-pop musician Chance Emerson for over six years!
 
 I have been playing jazz for over a decade and performed with the Brown University and MIT jazz combos! Check out this live recording of one of my senior performance with the Brown University Jazz Combo.
 
-{% include video.liquid path="assets/video/satch_jazz_piano.mp4" class="img-fluid rounded z-depth-1" %}
+{% include video.liquid path="assets/video/satch_jazz_piano.mp4" class="img-fluid rounded z-depth-1" controls=true width="100%" %}
 
 ---
 
@@ -40,8 +40,8 @@ I have been playing jazz for over a decade and performed with the Brown Universi
 
 My group, "The Leftovers", are putting out an EP! Here's a sneak preview of a few of our original songs.
 
-{% include audio.liquid path="assets/audio/apparition.mp3" %}
-{% include audio.liquid path="assets/audio/if_i_follow_the_sun.mp3" %}
+{% include audio.liquid path="assets/audio/apparition.mp3" controls=true %}
+{% include audio.liquid path="assets/audio/if_i_follow_the_sun.mp3" controls=true %}
 
 ---
 
