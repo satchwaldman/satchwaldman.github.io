@@ -1,15 +1,14 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: ""
+title: Research
+permalink: /research/
 nav: true
-nav_order: 3
-display_categories: [research, personal]
+nav_order: 4
+display_categories: [research]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/research.md -->
 <div class="projects">
 {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
