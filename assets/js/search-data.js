@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "projects",
+  },{id: "nav-research",
+          title: "Research",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/research/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -22,6 +22,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-portfolio",
+          title: "Portfolio",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/portfolio/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -474,25 +481,25 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/digital-brain/";
             },},{
-        id: 'social-',
-        title: '',
+        id: 'social-email',
+        title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("mailto:%73%61%74%63%68@%6D%69%74.%65%64%75", "_blank");
         },
       },{
-        id: 'social-',
-        title: '',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://github.com/satchwaldman", "_blank");
         },
       },{
-        id: 'social-',
-        title: '',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://www.linkedin.com/in/satch-sumner-waldman", "_blank");
         },
       },{
       id: 'light-theme',
