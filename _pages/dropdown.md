@@ -10,4 +10,7 @@ children:
   - title: divider
   - title: music
     permalink: /music/
+  - title: divider
+  - title: longer story
+    permalink: /longer-story/
 ---
