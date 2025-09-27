@@ -2,8 +2,6 @@
 layout: page
 title: music
 permalink: /music/
-nav: true
-nav_order: 5
 ---
 
 <div class="row">
