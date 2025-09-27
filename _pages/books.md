@@ -2,8 +2,6 @@
 layout: page
 title: Bookshelf
 permalink: /books/
-nav: false
-nav_order: 7
 ---
 
 ### Currently Reading
