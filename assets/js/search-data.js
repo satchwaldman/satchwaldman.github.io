@@ -31,18 +31,11 @@ ninja.data = [{
             window.location.href = "/portfolio/";
           },
         },{id: "nav-music",
-          title: "Music",
+          title: "music",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/music/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
