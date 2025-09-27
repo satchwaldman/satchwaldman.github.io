@@ -12,12 +12,9 @@ horizontal: false
 <!-- pages/projects.md -->
 <div class="projects">
 {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category | capitalize }}</h2>
-  </a>
 
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  
+{% assign categorized_projects = site.projects | where: "category", category %}
+
   <h3 class="category">Current</h3>
   {% assign current_projects = categorized_projects | where: "status", "current" | sort: "importance" %}
   <div class="row row-cols-1 row-cols-md-3">

@@ -27,28 +27,41 @@ layout: default
     </header>
 
     <article>
-      <div class="cv">
-        {% for entry in site.data.cv %}
-          <a class="anchor" id="{{ entry.title }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-            <div>
-              {% if entry.type == 'list' %}
-                {% include cv/list.liquid %}
-              {% elsif entry.type == 'map' %}
-                {% include cv/map.liquid %}
-              {% elsif entry.type == 'nested_list' %}
-                {% include cv/nested_list.liquid %}
-              {% elsif entry.type == 'time_table' %}
-                {% include cv/time_table.liquid %}
-              {% elsif entry.type == 'list_groups' %}
-                {% include cv/list_groups.liquid %}
-              {% else %}
-                {{ entry.contents }}
-              {% endif %}
-            </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="list-group sticky-top">
+            {% for entry in site.data.cv %}
+              <a href="#{{ entry.title | downcase | replace: ' ', '-' }}" class="list-group-item list-group-item-action">
+                {{ entry.title }}
+              </a>
+            {% endfor %}
           </div>
-        {% endfor %}
+        </div>
+        <div class="col-md-9">
+          <div class="cv">
+            {% for entry in site.data.cv %}
+              <a class="anchor" id="{{ entry.title | downcase | replace: ' ', '-' }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+                <div>
+                  {% if entry.type == 'list' %}
+                    {% include cv/list.liquid %}
+                  {% elsif entry.type == 'map' %}
+                    {% include cv/map.liquid %}
+                  {% elsif entry.type == 'nested_list' %}
+                    {% include cv/nested_list.liquid %}
+                  {% elsif entry.type == 'time_table' %}
+                    {% include cv/time_table.liquid %}
+                  {% elsif entry.type == 'list_groups' %}
+                    {% include cv/list_groups.liquid %}
+                  {% else %}
+                    {{ entry.contents }}
+                  {% endif %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
       </div>
     </article>
   </div>

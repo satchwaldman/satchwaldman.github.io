@@ -9,6 +9,7 @@ nav_order: 7
 ### Currently Reading
 
 {% assign current_books = site.books | where: "status", "current" %}
+
 <div class="books">
   {% for book in current_books %}
     {% include book.liquid %}
@@ -20,6 +21,7 @@ nav_order: 7
 #### 2025
 
 {% assign past_books = site.books | where: "status", "past" %}
+
 <div class="books">
   {% for book in past_books %}
     {% include book.liquid %}
@@ -29,6 +31,7 @@ nav_order: 7
 ### Future Reads
 
 {% assign future_books = site.books | where: "status", "future" %}
+
 <div class="books">
   {% for book in future_books %}
     {% include book.liquid %}

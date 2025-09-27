@@ -10,11 +10,6 @@
     - key: LinkedIn
       value: linkedin.com/in/satch-sumner-waldman
 
-- title: About
-  type: list
-  contents:
-    - Hi, I’m Satch. I care deeply about figuring out how to improve people’s lives at scale and help ensure a prosperous future for generations to come. Because of this, I focus on AI safety, which I see as one of the most urgent and high-impact challenges of our time.
-
 - title: Education
   type: time_table
   contents:
@@ -25,7 +20,7 @@
       institution: Brown University, Providence, RI
       year: Class of 2023
       description:
-        - 'Relevant Courses: Machine Learning, Data Structures & Algorithms, ODE, PDE, Linear Algebra, Statistical Inference'
+        - "Relevant Courses: Machine Learning, Data Structures & Algorithms, ODE, PDE, Linear Algebra, Statistical Inference"
 
 - title: AI Alignment Experience
   type: time_table
