@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/";
           },
-        },{id: "nav-music",
-          title: "music",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/music/";
-          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
@@ -44,12 +37,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
+            },{id: "dropdown-music",
+              title: "music",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/blog/";
+                window.location.href = "/music/";
               },
             },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
