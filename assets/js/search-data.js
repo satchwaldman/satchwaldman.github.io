@@ -237,6 +237,11 @@ ninja.data = [{
           description: "A unified productivity and knowledge system.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/digital-brain/";
+            },},{id: "projects-thread-loom",
+          title: 'Thread Loom',
+          description: "A dynamic AI conversation environment.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/thread-loom/";
             },},{
         id: 'social-email',
         title: 'email',
