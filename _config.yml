@@ -158,6 +158,8 @@ collections:
 # -----------------------------------------------------------------------------
 
 nav_pages:
+  - { title: "About", url: "/" }
+  - { title: "CV", url: "/cv/" }
   - { title: "Research", url: "/research/" }
   - { title: "Portfolio", url: "/portfolio/" }
   - { title: "Submenus", url: "/#" }
@@ -196,6 +198,8 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/blog.md
+  - _posts/
   - purgecss.config.js
   - README.md
   - readme_preview/
