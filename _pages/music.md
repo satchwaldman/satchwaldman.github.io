@@ -6,13 +6,12 @@ permalink: /music/
 
 <div class="row">
   <div class="col-sm-4">
-    {% include figure.liquid path="assets/img/satch_music_pic.jpeg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/satch_music_pic.jpg" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-8">
     <p>In addition to my academic work, I’ve been an active musician for years. I primarily play jazz but also collaborate across genres, including folk-pop and original songwriting. Check out some of my upcoming gigs here:</p>
     <ul>
-      <li>October 21st, 2025: The Sinclair with Chance Emerson (Cambridge)</li>
-      <li><a href="https://www.bandsintown.com/e/1036262687?app_id=supertape_f8c3f1a149aaaa4bbd96c837182b1e3e&came_from=706&utm_medium=api&utm_source=public_api&utm_campaign=event" target="_blank">Buy tickets here!</a></li>
+      <li>October 21st, 2025: The Sinclair with Chance Emerson (Cambridge). <a href="https://www.bandsintown.com/e/1036262687?app_id=supertape_f8c3f1a149aaaa4bbd96c837182b1e3e&came_from=706&utm_medium=api&utm_source=public_api&utm_campaign=event" target="_blank">Buy tickets here!</a></li>
       <li>November 9th, 2025: Aeronaut with The Leftovers (Somerville)</li>
     </ul>
   </div>
