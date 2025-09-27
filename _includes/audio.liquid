@@ -1,7 +1,11 @@
 {%- assign audio_path = include.path -%}
 {%- assign audio_controls = include.controls | default: false -%}
 
-<audio {% if audio_controls %}controls{% endif %}>
+<audio
+  {% if audio_controls %}
+    controls
+  {% endif %}
+>
   <source src="{{ audio_path | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>

@@ -1,14 +1,21 @@
 {%- assign video_path = include.path -%}
-{%- assign video_class = include.class | default: "img-fluid rounded z-depth-1" -%}
-{%- assign video_width = include.width | default: "560" -%}
-{%- assign video_height = include.height | default: "315" -%}
+{%- assign video_class = include.class | default: 'img-fluid rounded z-depth-1' -%}
+{%- assign video_width = include.width | default: '560' -%}
+{%- assign video_height = include.height | default: '315' -%}
 {%- assign video_controls = include.controls | default: false -%}
 
 <div class="embed-responsive embed-responsive-16by9">
-  {% if video_path contains "youtube.com" %}
+  {% if video_path contains 'youtube.com' %}
     <iframe class="embed-responsive-item" src="{{ video_path }}" allowfullscreen></iframe>
   {% else %}
-    <video class="embed-responsive-item" width="{{ video_width }}" height="{{ video_height }}" {% if video_controls %}controls{% endif %}>
+    <video
+      class="embed-responsive-item"
+      width="{{ video_width }}"
+      height="{{ video_height }}"
+      {% if video_controls %}
+        controls
+      {% endif %}
+    >
       <source src="{{ video_path | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
