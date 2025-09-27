@@ -25,7 +25,8 @@ The Digital Brain is a unified productivity and knowledge system that:
 
 ### Related GitHub Repos:
 
-- Notes to PDF
-- Workona Populator
+- [Therapy Log Bot](https://github.com/satchwaldman/notion-therapy-log-bot)
+- [Workona Populator](https://github.com/satchwaldman/workona-populator)
+- [Notion Daily Log Bot](https://github.com/satchwaldman/notion-daily-log-bot)
 - GPT Threads / Thread Loom
 - Notion Integrations (Daily Therapy Log, Daily Idea Log)
