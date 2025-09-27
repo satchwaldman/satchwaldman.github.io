@@ -164,7 +164,7 @@ nav_pages:
   - { title: "Portfolio", url: "/portfolio/" }
   - { title: "Submenus", url: "/#" }
 nav_dropdown:
-  - { title: "Music", url: "/music/" }
+  - { title: "music", url: "/music/" }
   - { title: "Bookshelf", url: "/books/" }
 
 # Markdown and syntax highlight
