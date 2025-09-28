@@ -21,17 +21,13 @@ permalink: /music/
 
 ### Chance Emerson
 
-I have been performing with folk-pop musician Chance Emerson for over six years! Last year we played at Lollapalooza in Chicago, IL, and two years before that we went on tour with Blues Traveler. Check out this live recording of one of our favorite songs!
-
-{% include video.liquid path="https://www.youtube.com/embed/oZmCT5b--Tw" class="img-fluid rounded z-depth-1" %}
+I have been performing with folk-pop musician Chance Emerson for over six years! Last year we played at Lollapalooza in Chicago, IL, and two years before that we went on tour with Blues Traveler. Check out this live recording of one of our favorite songs! {% include video.liquid path="https://www.youtube.com/embed/oZmCT5b--Tw" class="img-fluid rounded z-depth-1" %}
 
 ---
 
 ### Jazz Performance
 
-I have been playing jazz for over a decade and performed with the Brown University and MIT jazz combos! Check out this live recording of one of my senior performance with the Brown University Jazz Combo.
-
-{% include video.liquid path="assets/video/satch_jazz_piano.mp4" class="img-fluid rounded z-depth-1" controls=true width="560" height="315" %}
+I have been playing jazz for over a decade and performed with the Brown University and MIT jazz combos! Check out this live recording of one of my senior performance with the Brown University Jazz Combo. {% include video.liquid path="assets/video/satch_jazz_piano.mp4" class="img-fluid rounded z-depth-1" controls=true width="560" height="315" %}
 
 ---
 
@@ -39,11 +35,25 @@ I have been playing jazz for over a decade and performed with the Brown Universi
 
 My group, "The Leftovers", are putting out an EP! Here's a sneak preview of a few of our original songs.
 
-{% include audio.liquid path="assets/audio/apparition.mp3" controls=true %}
-{% include audio.liquid path="assets/audio/if_i_follow_the_sun.mp3" controls=true %}
+"Apparition" {% include audio.liquid path="assets/audio/apparition.mp3" controls=true %}
+
+"If I Follow The Sun" {% include audio.liquid path="assets/audio/if_i_follow_the_sun.mp3" controls=true %}
 
 ---
 
 ### Original Music
 
-I wanted to showcase some of my favorite original music (all unreleased) as well! Feel free to have a listen.
+I wanted to showcase some of own  music (all unreleased) as well! I love making music that blends ideas from jazz, folk, and pop. Feel free to have a listen!
+
+Here's a few of my originals ...
+
+"When I'm With You" {% include audio.liquid path="assets/audio/when_im_with_you.mp3" controls=true %}
+
+"Ole" {% include audio.liquid path="assets/audio/ole.mp3" controls=true %}
+
+... and here's a few of my favorite covers!
+
+"Pumped Up Kicks" by Mark Foster
+{% include audio.liquid path="assets/audio/pumped_up_kicks.mp3" controls=true %}
+
+"Running In The 90s" by Max Coveri {% include audio.liquid path="assets/audio/running_in_the_90s.mp3" controls=true %}
