@@ -27,7 +27,7 @@ I have been performing with folk-pop musician Chance Emerson for over six years!
 
 ### Jazz Performance
 
-I have been playing jazz for over a decade and performed with the Brown University and MIT jazz combos! Check out this live recording of one of my senior performance with the Brown University Jazz Combo. {% include video.liquid path="assets/video/satch_jazz_piano.mp4" class="img-fluid rounded z-depth-1" controls=true width="560" height="315" %}
+I have been playing jazz for over a decade and performed with the Brown University and MIT jazz combos! Check out this live recording of one of my senior performance with the Brown University Jazz Combo. {% include video.liquid path="assets/video/satch_jazz_piano.mp4" class="img-fluid rounded z-depth-1" controls=true width="200" %}
 
 ---
 
