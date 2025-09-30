@@ -21,13 +21,13 @@ permalink: /music/
 
 ### Chance Emerson
 
-I have been performing with folk-pop musician Chance Emerson for over six years! Last year we played at Lollapalooza in Chicago, IL, and two years before that we went on tour with Blues Traveler. Check out this live recording of one of our favorite songs! {% include video.liquid path="https://www.youtube.com/embed/oZmCT5b--Tw" class="img-fluid rounded z-depth-1" %}
+I have been performing with folk-pop artist [Chance Emerson](https://www.chanceemerson.com/) for over six years! Last year we played at Lollapalooza in Chicago, IL, and two years before that we went on tour with Blues Traveler. Check out this live recording of one of our favorite songs! {% include video.liquid path="https://www.youtube.com/embed/oZmCT5b--Tw" class="img-fluid rounded z-depth-1" %}
 
 ---
 
 ### Jazz Performance
 
-I have been playing jazz for over a decade and performed with the Brown University and MIT jazz combos! Check out this live recording of one of my senior performance with the Brown University Jazz Combo. {% include video.liquid path="assets/video/satch_jazz_piano.mp4" class="img-fluid rounded z-depth-1" controls=true width="300" %}
+I have been playing jazz for over a decade and performed with the Brown University and MIT jazz combos! Check out this live recording from my senior performance with the Brown University Jazz Combo. {% include video.liquid path="assets/video/satch_jazz_piano.mp4" class="img-fluid rounded z-depth-1" controls=true width="300" %}
 
 ---
 
