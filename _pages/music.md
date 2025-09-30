@@ -27,7 +27,7 @@ I have been performing with folk-pop musician Chance Emerson for over six years!
 
 ### Jazz Performance
 
-I have been playing jazz for over a decade and performed with the Brown University and MIT jazz combos! Check out this live recording of one of my senior performance with the Brown University Jazz Combo. {% include video.liquid path="assets/video/satch_jazz_piano.mp4" class="img-fluid rounded z-depth-1" controls=true width="200" %}
+I have been playing jazz for over a decade and performed with the Brown University and MIT jazz combos! Check out this live recording of one of my senior performance with the Brown University Jazz Combo. {% include video.liquid path="assets/video/satch_jazz_piano.mp4" class="img-fluid rounded z-depth-1" controls=true width="300" %}
 
 ---
 
@@ -35,9 +35,11 @@ I have been playing jazz for over a decade and performed with the Brown Universi
 
 My group, "The Leftovers", are putting out an EP! Here's a sneak preview of a few of our original songs.
 
-"Apparition" {% include audio.liquid path="assets/audio/apparition.mp3" controls=true %}
+"Apparition" 
+{% include audio.liquid path="assets/audio/apparition.mp3" controls=true %}
 
-"If I Follow The Sun" {% include audio.liquid path="assets/audio/if_i_follow_the_sun.mp3" controls=true %}
+"If I Follow The Sun" 
+{% include audio.liquid path="assets/audio/if_i_follow_the_sun.mp3" controls=true %}
 
 ---
 
@@ -47,13 +49,16 @@ I wanted to showcase some of own  music (all unreleased) as well! I love making 
 
 Here's a few of my originals ...
 
-"When I'm With You" {% include audio.liquid path="assets/audio/when_im_with_you.mp3" controls=true %}
+"When I'm With You" 
+{% include audio.liquid path="assets/audio/when_im_with_you.mp3" controls=true %}
 
-"Ole" {% include audio.liquid path="assets/audio/ole.mp3" controls=true %}
+"Ole" 
+{% include audio.liquid path="assets/audio/ole.mp3" controls=true %}
 
 ... and here's a few of my favorite covers!
 
 "Pumped Up Kicks" by Mark Foster
 {% include audio.liquid path="assets/audio/pumped_up_kicks.mp3" controls=true %}
 
-"Running In The 90s" by Max Coveri {% include audio.liquid path="assets/audio/running_in_the_90s.mp3" controls=true %}
+"Running In The 90s" by Max Coveri 
+{% include audio.liquid path="assets/audio/running_in_the_90s.mp3" controls=true %}
